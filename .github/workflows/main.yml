@@ -23,11 +23,11 @@ jobs:
       - name: Install Dependencies
         working-directory: ./infra
         run: npm install
-
-      - uses: pulumi/actions@v5
-        with:
-          command: destroy
-          stack-name: diana-pulumi-corp/cicd-workshop/test
-          work-dir: ./infra
-        env:
-          PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
+      # Uncomment this for Part 3
+      # - uses: pulumi/actions@v5
+      #   with:
+      #     command: destroy
+      #     stack-name: zephyr/cicd-workshop/test # UPDATE THIS
+      #     work-dir: ./infra
+      #   env:
+      #     PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
