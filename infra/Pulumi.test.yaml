@@ -6,6 +6,6 @@ config:
   cicd-workshop:indexDocument: index.html
   cicd-workshop:path: ./www
 
-# Part 3,
-environment:
-  - pulumi-cicd-workshop 
+# # Part 3,
+# environment:
+#   - pulumi-cicd-workshop 
