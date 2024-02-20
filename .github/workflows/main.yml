@@ -1,5 +1,5 @@
 # Part 3
-name: merge
+name: main
 
 on:
   push:
